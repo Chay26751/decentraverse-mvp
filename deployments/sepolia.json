@@ -1,0 +1,17 @@
+{
+  "network": "sepolia",
+  "timestamp": "2025-09-19T16:34:49.077Z",
+  "deployer": "0xD11527CB2D636817bEAb4354362c932312d189CF",
+  "contracts": {
+    "VerseToken": {
+      "address": "0xE304d876a190ec4C46f14e82f2Fa09b066f9dC49",
+      "initialSupply": "1000000.0",
+      "symbol": "VERSE"
+    },
+    "GovernanceToken": {
+      "address": "0x2f59a6Da23663a4aAaF7B3Af556A5096Cf5ac03e",
+      "initialSupply": "500000.0",
+      "symbol": "GOV"
+    }
+  }
+}

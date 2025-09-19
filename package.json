@@ -1,0 +1,37 @@
+{
+  "name": "decentraverse-mvp",
+  "version": "1.0.0",
+  "description": "Decentraverse MVP with $VERSE and $GOV tokens",
+  "main": "index.js",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test",
+    "test:coverage": "npx hardhat coverage",
+    "deploy:sepolia": "npx hardhat run scripts/deploy.ts --network sepolia",
+    "verify:sepolia": "npx hardhat run scripts/verify.ts --network sepolia",
+    "interact:sepolia": "npx hardhat run scripts/interact.ts --network sepolia",
+    "node": "npx hardhat node",
+    "clean": "npx hardhat clean",
+    "lint:sol": "npx solhint 'contracts/**/*.sol'",
+    "lint:ts": "npx eslint . --ext .ts",
+    "serve:frontend": "cd frontend && python -m http.server 8000"
+  },
+  "keywords": ["ethereum", "solidity", "hardhat", "defi", "governance"],
+  "author": "Decentraverse Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@types/chai": "^4.3.5",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^18.15.0",
+    "chai": "^4.3.7",
+    "hardhat": "^2.17.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.3",
+    "dotenv": "^16.3.1",
+    "ethers": "^5.7.2"
+  }
+}
