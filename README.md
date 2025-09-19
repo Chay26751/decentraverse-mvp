@@ -4,6 +4,8 @@ A blockchain-based metaverse platform MVP featuring two tokens:
 - **$VERSE**: ERC20 utility token for platform transactions
 - **$GOV**: ERC20Votes governance token for decentralized governance
 
+🚀 **Status**: Deployed and Live on Sepolia Testnet!
+
 ## Features
 
 - ERC20 utility token ($VERSE) with burn functionality
