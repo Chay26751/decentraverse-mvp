@@ -1,0 +1,19 @@
+{
+  "extends": "solhint:recommended",
+  "rules": {
+    "pragma-solidity": ["error", "^0.8.0"],
+    "visibility-modifier-order": "error",
+    "no-unused-vars": "error",
+    "const-name-snakecase": "error",
+    "contract-name-camelcase": "error",
+    "event-name-camelcase": "error",
+    "func-name-mixedcase": "error",
+    "modifier-name-mixedcase": "error",
+    "private-vars-leading-underscore": "error",
+    "use-forbidden-name": "error",
+    "imports-on-top": "error",
+    "ordering": "error",
+    "no-console": "off",
+    "compiler-version": ["error", "^0.8.0"]
+  }
+}
